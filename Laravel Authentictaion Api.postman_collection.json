@@ -1,0 +1,122 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Laravel Authentictaion Api",
+		"_postman_id": "295fdf26-9c86-2a03-2979-c07e4f2ab243",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "127.0.0.1:8000/api/login",
+			"request": {
+				"url": "127.0.0.1:8000/api/login",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "asghar@mail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "456456456",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/details",
+			"request": {
+				"url": "127.0.0.1:8000/api/details",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImNhZDRmN2QyYzhjZDYzOWQ1N2IwYjA3YzE2MGMyZWI3NDhhNWE0MTIwM2I3NGVhMzY4N2U1MzI2ODQxNTFmMzZjZmZkZjQ1ODdmNTRlMDk0In0.eyJhdWQiOiIxIiwianRpIjoiY2FkNGY3ZDJjOGNkNjM5ZDU3YjBiMDdjMTYwYzJlYjc0OGE1YTQxMjAzYjc0ZWEzNjg3ZTUzMjY4NDE1MWYzNmNmZmRmNDU4N2Y1NGUwOTQiLCJpYXQiOjE1ODAwODU1ODYsIm5iZiI6MTU4MDA4NTU4NiwiZXhwIjoxNjExNzA3OTg2LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.SssVuDAcqG_4wJJodgxCf-WEqBrmUXDmSpPOpLUYtLkiW4H5UptpZvQTAEtsu3GBv_mJWImUkclRGGFATQyFysE1JJp9yH4ZhwedQx30T45uAVwbEbBuOtk0SISMrFOTJXEA3sWfp_HN5ped2Ivlm7SVdKmAdSPY7TJWjWRbw2sGqbe2-mA8__YUv8utF-S4tpbA4rdTrOJ7Dj_FYS0LnIcXsdwjIQZ8vVSrcm_6O2NFLXdNBsSZaPIUG32aTHFwVgOS7CcE-KiYKNA4v-rlGKkUuTw4bXc_PLwV88upJWfpvRfB91sLJq-no5TJA1KIdtnCJBNdTKLiBTGLvBy3AhrdEci6WP2ciUSJou2DuoHFAuQ5qDoSpa3P9DFaxboThpQWDJefwsMKR9wFoWLqGbZLlZRnKYKkgzK07GJcaIF8ZR0vgJhAOnbftXQ6tEcEDmxAJhis56PtK5nisNaVEKW4oKtlh9R51_yC7-Uem5armwP4Tw3ggQ1y0N2kyNZ_SyPrx3eWFfGklNv_sc6qW0gp3Cvriba_PSHIuYMArpLjDzL1jtUMjNGl173LryG3iS8Ka80wYUjC3XerIEXwGef_7k_RU_78iePM7N8yntKsIc9Q9WPOG-fyL6k2xOSO9aeaaf6LIPPDlDTPbhU0mWf4t-Ci9a21FNjMOxWpiOU",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "asghar",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "asghar@mail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "456456456",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "456456456",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "127.0.0.1:8000/api/register",
+			"request": {
+				"url": "127.0.0.1:8000/api/register",
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "asghar",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "asghar@mail.com",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "456456456",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "c_password",
+							"value": "456456456",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
